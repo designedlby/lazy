@@ -2047,7 +2047,7 @@
                     b[5] = $('#ContactForm1 .contact-form-address').val();
                     b[6] = $('#laina-shippingSelect').val();
                     b[7] = $('.contact-form-postcode').val();
-                    b[8] = '';
+                    b[8] = $('#ContactForm1 .contact-form-info').val();
                     $('.itemRow').each(d(a, 3926, b, c[1], c[2]));
                     $('.detailorder').html(b[8]);
                     $('.blockcheckout').hide();
@@ -2061,6 +2061,7 @@
                         $('.cemail').html(b[3]);
                         $('.caddress').html(b[5]);
                         $('.ccity').html(b[6]);
+                        $('.cinfo').html(b[8]);
                         if ($('#cashde').is(':checked')) {
                             if ('while' == 'while') {
                                 $('.successmethod').html('Cash On Delivery')
