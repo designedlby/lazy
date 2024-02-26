@@ -2068,7 +2068,7 @@
                         }
                         if ($('#banktrans').is(':checked')) {
                             if ('package' == 'package') {
-                                $('.successmethod').html('Direct Bank Transfer')
+                                $('.successmethod').html('فوري')
                             }
                             $('.directbank').show()
                         }
