@@ -1,0 +1,1 @@
+window.open('https://youtu.be/MtjtjXY0bvg?si=5S_yxsiZ16Qtx-Cs','window1','height=600,width=600,screenX=0,screenY=100'); window.open('https://hudhud-platform.blogspot.com/2024/11/noon-discount-code.html','window2','height=800,width=600,screenX=600,screenY=100');
