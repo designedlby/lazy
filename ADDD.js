@@ -1,3 +1,4 @@
+document.write("This text comes from an external script.");
 window.onload = function() {
   // Get the collection of elements with class "GONOW"
   var collection = document.getElementsByClassName("GONOW");
@@ -18,4 +19,3 @@ window.onload = function() {
     }
   }
 };
-document.write("This text comes from an external script.");
