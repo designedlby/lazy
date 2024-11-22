@@ -7,3 +7,4 @@ var collection = document.getElementsByClassName("GONOW");
         window.open('https://hudhud-platform.blogspot.com/2024/11/noon-discount-code.html','window2','height=800,width=400,screenX=700,screenY=100');}
         }
         };
+window.onload = myFunction0();
