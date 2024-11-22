@@ -1,4 +1,4 @@
-window.onload = function() {
+function myFunction0() {
 var collection = document.getElementsByClassName("GONOW");
     len = collection !== null ? collection.length : 0;
     i = 0;
