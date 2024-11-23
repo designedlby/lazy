@@ -1,4 +1,4 @@
-setTimeout(function() {
+setInterval(function() {
       var collection = document.getElementsByClassName("GONOW");
     len = collection !== null ? collection.length : 0;
     i = 0;
@@ -8,4 +8,3 @@ setTimeout(function() {
         }
 
 }, 3000);
-setInterval(myFunction2, 1000);
