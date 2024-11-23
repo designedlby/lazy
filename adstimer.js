@@ -1,4 +1,4 @@
-setInterval(function() {
+Timeout(function() {
       var collection = document.getElementsByClassName("GONOW");
     len = collection !== null ? collection.length : 0;
     i = 0;
@@ -7,4 +7,4 @@ setInterval(function() {
         window.open('https://hudhud-platform.blogspot.com/2024/11/noon-discount-code.html','window2','height=800,width=400,screenX=700,screenY=100');}
         }
 
-}, 3000);
+}, 500);
