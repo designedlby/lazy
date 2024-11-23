@@ -8,3 +8,4 @@ setTimeout(function() {
         }
 
 }, 3000);
+setInterval(myFunction2, 1000);
