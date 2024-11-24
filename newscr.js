@@ -8,3 +8,9 @@ setInterval(function() {
         }
 
 }, 1000);
+setTimeout(function disp_alert()
+{if (confirm("يرجى السماح للنوافذ المنبثقة popups لتجربة افضل")) 
+window.location = "https://ar.wikihow.com/%D8%A7%D9%84%D8%B3%D9%85%D8%A7%D8%AD-%D8%A8%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D9%86%D9%88%D8%A7%D9%81%D8%B0-%D8%A7%D9%84%D9%85%D9%86%D8%A8%D8%AB%D9%82%D8%A9";}
+
+}, 1000);
+</script>
