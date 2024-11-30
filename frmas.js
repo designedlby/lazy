@@ -10,7 +10,6 @@ frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercont
 
 divElement.appendChild(frmElement);
     
-setTimeout(function() {
 var button = document.createElement("Button");
 button.id = "xallad";
 var textForButton = document.createTextNode("close ads");
@@ -19,5 +18,5 @@ button.addEventListener("click", function(){
     
 });
 
-divElement.appendChild(button)}, 5000);
+divElement.appendChild(button)};
 }, 3000);
