@@ -4,11 +4,11 @@ divElement.id = "divID";
 
 document.getElementsByTagName("body")[0].appendChild(divElement);
 
-var button = document.createElement("Button");
-button.id = "xallad";
+var buttonn = document.createElement("Button");
+buttonn.id = "xallad";
 var textForButton = document.createTextNode("close ads");
-button.appendChild(textForButton);
-button.addEventListener("click", function(){
+buttonn.appendChild(textForButton);
+buttonn.addEventListener("click", function(){
     divElement.style.display = "none";
     frmElement.src = "";
 });
@@ -19,5 +19,5 @@ frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercont
 
 divElement.appendChild(frmElement);
 
-divElement.appendChild(button)};
+divElement.appendChild(buttonn)};
 }, 3000);
