@@ -9,7 +9,8 @@ button.id = "xallad";
 var textForButton = document.createTextNode("close ads");
 button.appendChild(textForButton);
 button.addEventListener("click", function(){
-    
+    divElement.style.display = "none";
+    frmElement.src = "";
 });
 
 var frmElement = document.createElement("iframe");
