@@ -7,10 +7,7 @@ var buttonn = document.createElement("Button");
 buttonn.id = "xallad";
 var textForButton = document.createTextNode("close ads");
 buttonn.appendChild(textForButton);
-buttonn.addEventListener("click", function(){
-    divElement.style.display = "none";
-    frmElement.src = "#";
-});
+
 
 divElement.appendChild(buttonn);
 
