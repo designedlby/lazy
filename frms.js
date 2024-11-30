@@ -12,7 +12,7 @@ divElement.appendChild(frmElement);
     
 setTimeout(function() {
 var button = document.createElement("Button");
-var textForButton = document.createTextNode("close ads");
+var textForButton = document.createTextNode("X");
 button.appendChild(textForButton);
 button.addEventListener("click", function(){
     document.getElementById("divID").style.display = "none";
