@@ -11,12 +11,12 @@ frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercont
 divElement.appendChild(frmElement);
     
 setTimeout(function() {
-var button = document.createElement("Div");
+var button = document.createElement("Button");
 var textForButton = document.createTextNode("close ads");
 button.appendChild(textForButton);
 button.addEventListener("click", function(){
-    divElement.style.display = "none";
-    frmElement.src = "";
+    document.getElementById("divID").style.display = "none";
+    document.getElementById("framead").src = "";
 });
 
 divElement.appendChild(button)}, 5000);
