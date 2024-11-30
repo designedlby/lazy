@@ -3,15 +3,16 @@ var divElement = document.createElement("Div");
 divElement.id = "divID";
 
 
-var button = document.createElement("Button");
+var buttonn = document.createElement("Button");
+buttonn.id = "xallad";
 var textForButton = document.createTextNode("close ads");
-button.appendChild(textForButton);
-button.addEventListener("click", function(){
+buttonn.appendChild(textForButton);
+buttonn.addEventListener("click", function(){
     divElement.style.display = "none";
     frmElement.src = "#";
 });
 
-divElement.appendChild(button);
+divElement.appendChild(buttonn);
 
 var frmElement = document.createElement("iframe");
 frmElement.id = "framead";
