@@ -11,7 +11,7 @@ frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercont
 divElement.appendChild(frmElement);
     
 setTimeout(function() {
-var button = document.createElement("Button");
+var button = document.createElement("Div");
 var textForButton = document.createTextNode("close ads");
 button.appendChild(textForButton);
 button.addEventListener("click", function(){
