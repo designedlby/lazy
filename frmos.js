@@ -12,6 +12,7 @@ divElement.appendChild(frmElement);
     
 setTimeout(function() {
 var button = document.createElement("Button");
+button.id = "xallad";
 var textForButton = document.createTextNode("X");
 button.appendChild(textForButton);
 button.addEventListener("click", function(){
@@ -19,5 +20,5 @@ button.addEventListener("click", function(){
     document.getElementById("framead").src = "";
 });
 
-divElement.appendChild(button)}, 5000);
+frmElement.appendChild(button)}, 5000);
 }, 3000);
