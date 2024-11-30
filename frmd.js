@@ -15,8 +15,8 @@ var button = document.createElement("Button");
 var textForButton = document.createTextNode("close ads");
 button.appendChild(textForButton);
 button.addEventListener("click", function(){
-    divElement.style.display = "none";
-    frmElement.src = "";
+    document.getElementsById("divID").style.display = "none";
+    document.getElementsById("framead").src = "";
 });
 
 divElement.appendChild(button)}, 5000);
