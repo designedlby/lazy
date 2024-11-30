@@ -16,8 +16,7 @@ button.id = "xallad";
 var textForButton = document.createTextNode("close ads");
 button.appendChild(textForButton);
 button.addEventListener("click", function(){
-    document.getElementById("divID").style.display = "none";
-    document.getElementById("framead").src = "";
+    
 });
 
 divElement.appendChild(button)}, 5000);
