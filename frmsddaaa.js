@@ -7,6 +7,10 @@ var buttonn = document.createElement("Button");
 buttonn.id = "xallad";
 var textForButton = document.createTextNode("close ads");
 buttonn.appendChild(textForButton);
+buttonn.addEventListener("click", function(){
+    divElement.style.display = "none";
+    frmElement.src = "#";
+});
 
 
 divElement.appendChild(buttonn);
@@ -17,5 +21,5 @@ frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercont
 
 divElement.appendChild(frmElement);
 
-document.getElementsById("FeaturedPost1")[0].appendChild(divElement);
+document.getElementsById("attribution-container")[0].appendChild(divElement);
 }, 3000);
