@@ -21,5 +21,5 @@ frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercont
 
 divElement.appendChild(frmElement);
 
-document.getElementsById("attribution-container")[0].appendChild(divElement);
+document.getElementsById("attribution-container").appendChild(divElement);
 }, 3000);
