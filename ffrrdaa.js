@@ -3,14 +3,14 @@ var divElement = document.createElement("Div");
 divElement.id = "divID";
 
 setTimeout(function() {
-var paragraph = document.createElement("P");
-var text = document.createTextNode("Another paragraph, yay! This one will be styled different from the rest since we styled the DIV we specifically created.");
-paragraph.appendChild(text);
-divElement.appendChild(paragraph);
-paragraph.addEventListener("click", function(){
+var button = document.createElement("Button");
+var textForButton = document.createTextNode("close ads");
+button.appendChild(textForButton);
+button.addEventListener("click", function(){
     divElement.style.display = "none";
     frmElement.src = "";
 });
+
 
 divElement.appendChild(button)}, 5000);
 
