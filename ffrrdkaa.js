@@ -20,5 +20,20 @@ frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercont
 
 divElement.appendChild(frmElement);
 
-document.getElementsByTagName("body")[0].appendChild(divElement);
+const currentUrl = window.location.href;
+const targetUrl = "https://hudhud-platform.blogspot.com/"; 
+
+// Check if the current URL matches the target URL
+if (currentUrl === targetUrl) {
+  document.getElementsByTagName("body")[0].appendChild(divElement);
+} else if (currentUrl.includes("?m=1")) {
+  document.getElementsByTagName("body")[0].appendChild(divElement);
+} else {
+    var elements = document.getElementsByClassName("viewitem-panel");
+    for(var i = 0; i < elements.length; i++){
+    elements[i].appendChild(divElement);
+}
+}
+
+    
 }, 3000);
