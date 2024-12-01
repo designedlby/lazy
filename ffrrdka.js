@@ -20,8 +20,5 @@ frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercont
 
 divElement.appendChild(frmElement);
 
-var elements = document.getElementsByClassName("viewitem-panel");
-for(var i = 0; i < elements.length; i++){
-   elements[i].appendChild(divElement);
-}
+document.getElementsByTagName("body")[0].appendChild(divElement);
 }, 3000);
