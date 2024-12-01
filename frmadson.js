@@ -16,7 +16,7 @@ divElement.appendChild(button)}, 5000);
 
 var frmElement = document.createElement("iframe");
 frmElement.id = "framead";
-frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercontent.com/designedlby/lazy/refs/heads/main/framad.html";
+frmElement.src = "https://html-preview.github.io/?url=https://raw.githubusercontent.com/designedlby/lazy/refs/heads/main/framadhud.html";
 
 divElement.appendChild(frmElement);
 
